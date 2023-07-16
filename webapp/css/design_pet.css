@@ -1,0 +1,101 @@
+
+.main{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.menu{
+    background-color: #d06760;
+    width: 20%;
+    padding: 10px;
+}
+.menu__list{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.menu__list--item{
+    background-color:white;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    width: 75%;
+    border: 3px solid black;
+
+    text-align: center;
+    line-height: 1.4;
+    font-family: AmaticSC;
+    font-size: 30px;
+    font-weight: 100;
+    color: #d06760;
+}
+
+/* RIGHT CONTAINER */
+
+.container {
+    background-color: white;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.top-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+    margin-top: 10px;
+}
+.top-container__list{
+    list-style-type: none;
+  display: flex;
+  justify-content: center;
+  padding: 11px;
+  margin: 0;
+  border-width: 3px;
+  border-color: black;
+  border-style:solid;
+  gap: 15px;
+   
+}
+.square {
+    width: 110px;
+    height: 100px;
+    background-color: #ccc;
+    flex-grow: 1;
+    position: relative;
+    border: 2px solid black;
+    background-color: #d06760;
+}
+.square__text {
+    position: absolute; /* Position the text element inside the square */
+    top: 50%; /* Move the text to the center of the square vertically */
+    left: 50%; /* Move the text to the center of the square horizontally */
+    transform: translate(-50%, -50%); /* Center the text perfectly */
+    text-align: center; /* Center the text horizontally */
+    font-family: AmaticSC;
+    font-size: 30px;
+    font-weight: 100;
+    color: #fff;
+}
+
+/* BOTTOM RIGHT CONTAINER */
+.bottom-container {
+    background-color: #fff;
+    padding: 10px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bottom-container__gif{
+    border: 3px solid black;
+    width: 70%;
+    padding: 8% 4% 2% 4%;
+    border-radius: 75px;
+}

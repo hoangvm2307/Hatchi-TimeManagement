@@ -1,0 +1,83 @@
+
+.main{
+    display: flex;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.menu{
+    background-color: #d06760;
+    width: 20%;
+    padding: 10px;
+}
+
+.container{
+    width: 85%;
+    position:relative;
+    display: flex;
+    flex-direction: column;
+}
+.container__header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.container__header--header{
+    border: 2px solid black;
+    border-radius: 12px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 8px 32px;
+    font-size: 20px;
+    color: #d06760;
+}
+.container__setting{
+    display: flex;
+    position: relative;
+    margin: 40px 0;
+    margin-left: 12%;
+    height: 540px;
+    z-index: 1;
+    font-size: 20px;
+    text-align: left;
+}
+.container__setting--left{
+    border-right: 4px solid black;
+    padding: 0 40px;
+    width:30%;
+}
+.container__setting--right{
+    width: 30%;
+    padding:0 40px;
+}
+
+.container__setting--right--timer{
+
+}
+
+.container__setting--right--aboutus{
+    margin-top: 50%;
+}
+
+.container__setting--right--aboutus a{
+    color: #d06760;
+}
+
+.container__background{ 
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 20%;
+}
+
+.text--header{
+    font-size: 28px;
+    border-bottom: 4px solid #d06760;
+    width: 100%;
+    padding-right: 40px;
+}
+.container__setting--left a{
+    color: #d06760;
+}

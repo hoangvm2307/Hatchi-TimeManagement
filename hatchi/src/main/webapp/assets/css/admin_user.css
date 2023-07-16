@@ -1,0 +1,142 @@
+/* --- Manage User --- */
+.body-table-user{
+    padding: 1rem 3rem;
+    width: 100%;
+    height: 90%;
+}
+.body-features{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.features-container{
+    height: 80%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end
+}
+
+.feature-search{
+    height: 100%;
+}
+.modal-search-form {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal-search-form button {
+    width: 30px;
+    height: auto;
+    margin-right: 5px;
+    background-color: rgba(252, 252, 252, 0);
+    border: none;
+}
+.modal-search-form button:hover{
+    cursor: pointer;
+}
+.modal-search-form img {
+    width: 100%;
+    height: auto;
+}
+.modal-search-form input {
+    height: 75%;
+    width: 80%;
+    border-radius: 10px;
+}
+
+.table-user{
+    text-align: center;
+    width: 100%;
+}
+
+.table-user-title{
+    padding: 0px 10px;
+    height: 60px;
+
+    font-family: AmaticSC;
+    font-size: 20px;
+    font-weight: 70;
+    color: #d06860;
+}
+
+.table-user-record{
+    padding: 20px;
+    height: 70px;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 50;
+}
+.table-user-record input {
+    border: none;
+    width: 30px;
+    height: 30px;
+}
+.table-user-record input:hover{
+    cursor: pointer;
+}
+
+/* -- Modal -- */
+/* Modal remove */
+.body-modal-remove {
+    z-index: 1; /* Sit on top */
+    background: #d06760;
+    position: absolute;
+    float: left;
+    left: 60%;
+    top: 50%;
+    transform: translate(-50%, -60%);
+    text-align: center;
+    border: 1.5px solid black;
+    border-radius: 30px;
+    animation-name: fadeIn;
+    animation-duration: 0.4s
+}
+  
+
+/* Modal edit */
+.body-modal-edit {
+    width: auto;
+    height: auto;
+    z-index: 1; /* Sit on top */
+    background: white;
+    position: absolute;
+    float: left;
+    left: 60%;
+    top: 50%;
+    transform: translate(-50%, -60%);
+    text-align: center;
+    animation-name: fadeIn;
+    animation-duration: 0.4s
+}
+.modal-edit-content {
+    width: 450px;
+    height: auto;
+    border: 1.5px solid black;
+}
+.edit-header{
+    border-bottom: 2px solid black;
+    background-color: #e4948fff;
+    width: 100%;
+    height: 15%;
+    padding: 5px;
+    overflow: hidden;
+}
+.edit-title {
+    background-color:white;
+    padding: 5px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    width: 25%;
+    height: auto;
+    margin: auto;
+
+    text-align: center;
+    font-family: AmaticSC;
+    font-size: 30px;
+    color: #d06760;
+}

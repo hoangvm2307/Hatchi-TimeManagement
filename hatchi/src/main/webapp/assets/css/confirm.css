@@ -1,0 +1,153 @@
+html, body{
+    height: 100%;
+}
+
+.main{
+    display: flex;
+    position: relative;
+    min-height: 100%;
+}
+
+.confirm{
+    display: flex;
+    position: absolute;    
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    min-height: 100%;
+
+}
+
+.confirm--background{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.confirm--display{
+    border-radius: 60px;
+    background-color: #d06760;
+    margin: auto;
+    margin-top: 150px;
+    z-index: 1;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.confirm--display--wrap{
+    padding: 4px 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.confirm--display--header{
+    text-align: center;
+    color: #fff;
+    font-weight: 800;
+    margin: 12px 0;
+}
+
+.confirm--display--body{
+    position: relative;
+    display: flex;
+}
+
+.confirm--display--body--header{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: #d06760;
+    margin: 4px 0;
+    display: flex;
+    justify-content: space-around;
+    line-height: 20px;
+}
+
+.w-45{
+    width: 45px !important;
+}
+
+.confirm--display--body--header--body{
+    line-height: 20px;
+    display: flex;
+}
+
+.confirm--display--body--header--body h3{
+    margin-right: 4px;
+}
+
+.confirm--display--body--image{
+    border-radius: 28px;
+    border: 2px solid #000;
+}
+
+.confirm--display--footer{
+    margin: 0 auto;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    color: #fff;
+}
+
+
+.yes-btn{
+    padding: 2px 28px;
+    font-size: 20px;
+    border: 2px solid #000;
+    color: #fff;
+    background-color: #dd5046;
+    border-radius: 4px;
+    margin: 0 8px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    cursor: pointer;
+    transition: 400ms;
+}
+
+.no-btn{
+    padding: 2px 28px;
+    font-size: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+    margin: 0 8px;
+    border: none;
+    cursor: pointer;
+    transition: 400ms;
+    border: 1px solid #d06760;
+}
+
+.no-btn:hover{
+    border: 1px solid #000;
+    color: #000;
+    background-color: #fff;
+}
+
+.yes-btn:hover{
+    color: #000;
+    background-color: #fff;
+}
+.own-btn{
+    border: 2px solid #000;
+    transition: 400ms;
+}
+.own-btn:hover{
+    background-color: #dd5046;
+    color: #fff;
+    font-weight: 600;
+}
+
+.w-20{
+    width: 20% !important;
+}
+
+.confirm--img{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.buy-img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
